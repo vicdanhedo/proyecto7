@@ -3,9 +3,10 @@ import pandas as pd
 import plotly_express as px
 
 car_data = pd.read_csv('vehicles_us.csv')
-hist_checkbox = st.checkbox('Construir histograma')
 
 st.header('Proyecto 7')
+
+hist_checkbox = st.checkbox('Construir histograma')
 
 if hist_checkbox:  # al hacer clic en el botón
     # escribir un mensaje
