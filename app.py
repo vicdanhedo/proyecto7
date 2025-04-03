@@ -5,6 +5,8 @@ import plotly_express as px
 car_data = pd.read_csv('vehicles_us.csv')
 hist_checkbox = st.checkbox('Construir histograma')
 
+st.header('Proyecto 7')
+
 if hist_checkbox:  # al hacer clic en el botón
     # escribir un mensaje
     st.write(
